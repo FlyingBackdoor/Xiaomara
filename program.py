@@ -14,7 +14,7 @@ button.config(image = logo)
 entry = ttk.Entry(root, width = 50)
 entry.pack()
 button.config(command = fselect.fst)
-entry.insert(0, 'none')
+entry.insert(0, 'NULL')
 entry.state(['readonly'])
 
 root.mainloop()
